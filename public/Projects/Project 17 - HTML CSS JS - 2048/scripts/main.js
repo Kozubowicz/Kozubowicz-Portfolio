@@ -17,6 +17,8 @@ button.addEventListener("click", () => {
   game.restart();
 
   drawBoard();
+
+  updateMessage();
 });
 
 document.addEventListener("keydown", (eventKey) => {
@@ -82,6 +84,9 @@ function updateMessage() {
     messageWin.classList.remove("hidden");
   } else if (gameStatus === Game.GameStatus.lose) {
     messageLose.classList.remove("hidden");
+  } else {
+    messageWin.classList.add("hidden");
+    messageLose.classList.add("hidden");
   }
 }
 

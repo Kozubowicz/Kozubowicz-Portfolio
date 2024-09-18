@@ -76,7 +76,6 @@ export class Game {
   }
 
   restart() {
-    this.status = Game.GameStatus.playing;
     this.score = 0;
 
     this.board = this.initialState.map((row) => [...row]);
