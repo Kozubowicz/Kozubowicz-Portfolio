@@ -1,6 +1,12 @@
-React typescript app 
+Welcome to Simple Note App – a lightweight and user-friendly application for
+managing your notes efficiently.
 
-App Functionality:
-App allow to create, modify and remove both notes and tags.
-Search notes by tag. 
-Save and read notes and tags from local storage.
+🚀 Features 📝 Save Notes – Stores notes in your browser's local storage.
+
+➕ Create Notes & Tags – Easily add new notes and categorize them with tags.
+
+✏️ Edit Notes & Tags – Modify existing notes and update their tags.
+
+🔍 Browse Tags – Quickly navigate through available tags.
+
+🔎 Search by Tags – Find notes based on assigned tags.
